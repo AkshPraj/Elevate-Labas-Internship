@@ -1,20 +1,31 @@
-# 📊 Superstore Sales Dashboard - Power BI 
+# 🧹 Sales Data Cleaning Project
 
-### 📌 Overview
+### 📌 Objective
 
-The Superstore Sales Dashboard provides a comprehensive visualization of sales performance, customer behavior, profit analysis, and operational insights for a retail superstore. It is designed to help stakeholders understand key business metrics, identify trends, and make data-driven decisions.
+To clean and prepare a raw sales dataset by handling missing values, duplicates, inconsistent text formats, and incorrect data types. The cleaned dataset will be used for downstream analysis or reporting.
 
-### 🛠️ Tools Used
-- Power BI Desktop
-- DAX for calculated measures
-- Power Query for data transformation
+### 🧰 Tools Used
 
-### Check out Dashboard:
-![](https://github.com/AkshPraj/Elevate-Labas-Internship/blob/main/1-%20Task%3A%20Sales%20Analyse%20Using%20Python/Super%20store%20db.PNG)
+- Python (Pandas)
+- Jupyter Notebook / Google Colab
+- OR Excel for non-programmatic data cleaning
 
-### 📊 Key Insights
+## 📝 Cleaning Steps Performed
 
-- Top Category: Office Supplies (41.11% of total sales)
-- Top Sub-Category: Phones ($196,563.55 in sales)
-- Top Payment Method: COD (41.57%)
-- Sales Growth: Higher in 2020 ($375,388.28) compared to 2019 ($245,985.70)
+## Task	Description
+
+- 🔍 Missing Values	Identified using .isnull() and handled by imputation or row removal.
+- ♻️ Duplicates	Removed using .drop_duplicates() or Excel's "Remove Duplicates".
+- 🧑‍💼 Standardized Text	Gender, country names, etc., were cleaned for consistency (e.g., male, Male, MALE → Male).
+- 📆 Date Format Fixes	Converted all dates to consistent format (DD-MM-YYYY).
+- 🏷️ Column Name Cleanup	Renamed headers to lowercase with underscores (e.g., Order Date → order_date).
+- 🔢 Data Type Corrections	Ensured numeric fields (like age, sales) are of correct type and dates as datetime.
+
+## 🧼 Example Summary of Changes
+
+- Removed 5 duplicate rows
+- Filled 12 missing 'customer_name' values with "Unknown"
+- Standardized 'Gender' column to: ['Male', 'Female']
+- Converted 'order_date' to datetime format
+- Renamed columns: "Order Date" → "order_date", "Sales Amount" → "sales_amount"
+- Casted 'quantity' and 'age' columns to integer
