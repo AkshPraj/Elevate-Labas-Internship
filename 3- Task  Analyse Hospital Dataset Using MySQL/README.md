@@ -14,4 +14,4 @@ This project involves exploratory data analysis (EDA) on a hospital's Emergency 
 ### 📊 View Created – ER_Dashboard
 This view aggregates important daily stats:
 
-![](https://github.com/AkshPraj/Hospital_er-/blob/main/view%20for%20sql.PNG)
+![](https://github.com/AkshPraj/Elevate-Labas-Internship/blob/main/3-%20Task%20%20Analyse%20Hospital%20Dataset%20Using%20MySQL/view%20for%20sql.PNG)
