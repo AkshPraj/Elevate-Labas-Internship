@@ -10,7 +10,7 @@ The Superstore Sales Dashboard provides a comprehensive visualization of sales p
 - Power Query for data transformation
 
 ### Check out Dashboard:
-![](https://github.com/AkshPraj/Superstore-Dashboard/blob/main/Super%20store%20db.PNG)
+![](https://github.com/AkshPraj/Elevate-Labas-Internship/blob/main/2-%20Task%20SuperStore%20Dashboard/Super%20store%20db.PNG)
 
 ### 📊 Key Insights
 
